@@ -30,16 +30,21 @@
                 </form>
               </div>
             </nav>
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" data-interval="5000" data-wrap="true" data-pause="false">
+              <ul class="carousel-indicators">
+                <li data-target="carouselExampleInterval" data-slide-to="0" class="active"></li>
+                <li data-target="carouselExampleInterval" data-slide-to="1"></li>
+                <li data-target="carouselExampleInterval" data-slide-to="2"></li>
+              </ul>
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="images/summer1.jpg" class="d-block w-100" alt="summer1.jpg">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                  <img src="images/fashion.jpg" class="d-block w-100" alt="fashion.jpg">
+                <div class="carousel-item active">
+                  <img src="images/summer1.jpg" class="d-block" alt="summer1.jpg">
                 </div>
                 <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
+                  <img src="images/accessory2.jpg" class="d-block" alt="accessory2.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/denim1.jpg" class="d-block" alt="denim1.jpg">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -52,27 +57,42 @@
               </button>
             </div>
             <div>
-                <h1>タイトル</h1> <!--仮-->
-                <p>「着たいけど何に合わせたらいいの？」「何年も着てなくてクローゼットの主になってしまった」お洋服はありませんか？
-                <br>相談したいけど直接お洋服をお店に持っていくのは嫌だな、ショップスタッフと話すのは苦手だけど相談したい！
-                <br>そんな方におすすめ！！写真を撮って投稿するだけで自宅で簡単に相談ができます。
-                <br>まずは会員登録から。
-                </p>
+                <h2>イチオシ</h2>
+                <!--夏の定番-->
+                <!--・これからの時期に活躍する服-->
+                <!--・アパレル店員が実際にやっている技や着こなしかた-->
+            </div>
+            <div class="category">
+              <h2>カテゴリから探す</h2>
+              <ul class="category">
+                <li>
+                  <img src="images1/whiteT.webp" alt="whiteT.webp">
+                  <h3>トップス</h3>
+                </li>
+                <li>
+                  <img src="images1/denim.jpeg" alt="denim.jpeg">
+                  <h3>パンツ</h3>
+                </li>
+                <li>
+                  <img src="images1/skirt.webp" alt="skirt.webp">
+                  <h3>スカート</h3>
+                </li>
+                <li>
+                  <img src="images1/dress.webp" alt="dress.webp">
+                  <h3>ワンピース</h3>
+                </li>
+                <li>
+                  <img src="images1/coat.webp" alt="coat.webp">
+                  <h3>アウター</h3>
+                </li>
+              </ul>
             </div>
             <div>
-                <!--会員登録フォーム-->
+              <h2>ランキング</h2>
+              <!--いいね数が多いランキング-->
             </div>
             <div>
-                <h1>【STEP1】</h1>
-                <h2>相談したいお洋服の写真を撮る</h2>
-                <h1>【STEP2】</h1>
-                <h2>お悩みポイントやどういった着こなしがいいかを記入して投稿！</h2>
-                <h1>【STEP3】</h1>
-                <h2>気になったコーディネートを見つけよう♪</h2>
-                <p>もう少し詳しく聞きたいときは直接聞くこともできます！</p>
-            </div>
-            <div>
-                <!--会員登録フォーム-->
+              
             </div>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
