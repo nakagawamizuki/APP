@@ -29,6 +29,18 @@ p {
     text-align: center;
 }
 
+ul#onepress {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#onepress img {
+    width: 100%;
+}
+
 .category {
     margin: 0 auto;
 }
