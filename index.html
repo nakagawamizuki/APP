@@ -8,109 +8,125 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <!-- ホームへ戻るリンク。ブランドロゴなどを置く。 -->
+          <a href="#" class="navbar-brand">P&amp;K</a>
+          <!-- 横幅が狭いときに出るハンバーガーボタン -->
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-bar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--メニュー項目-->
+          <div class="collapse navbar-collapse" id="nav-bar">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a href="#" class="nav-link">マイページ</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#" class="nav-link">お気に入り</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#" class="nav-link">会員情報の確認・変更</a>
+              </li>
+              <li class="nav-item dropdown">
+                <!--<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">A</a>-->
+                <!--<div class="dropdown-menu">-->
+                <!--    <a class="dropdown-item" href="#">B</a>-->
+                <!--    <a class="dropdown-item" href="#">C</a>-->
+                <!--    <a class="dropdown-item" href="#">D</a>-->
+                <!--    <a class="dropdown-item" href="#">E</a>-->
+                <!--</div>-->
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">お問い合わせ</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    　　<nav class="navbar navbar-light bg-light">
+          <div class="container-fluid">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="キーワードから探す" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" data-interval="5000" data-wrap="true" data-pause="false">
+          <ul class="carousel-indicators">
+            <li data-target="carouselExampleInterval" data-slide-to="0" class="active"></li>
+            <li data-target="carouselExampleInterval" data-slide-to="1"></li>
+            <li data-target="carouselExampleInterval" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/summer.JPEG" class="d-block" alt="summer.JPEG">
+            </div>
+            <div class="carousel-item">
+                <img src="images/accessory2.jpg" class="d-block" alt="accessory2.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="images/denim1.jpg" class="d-block" alt="denim1.jpg">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <!--<span class="visually-hidden">Previous</span>-->
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <!--<span class="visually-hidden">Next</span>-->
+          </button>
+        </div>
         <div>
-            <div class="collapse" id="navbarToggleExternalContent">
-              <div class="bg-dark p-4">
-                <h5 class="text-white h4">Collapsed content</h5>
-                <span class="text-muted">Toggleable via the navbar brand.</span>
-              </div>
-            </div>
-            <nav class="navbar navbar-dark bg-dark">
-              <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              </div>
-            </nav>
-            <nav class="navbar navbar-light bg-light">
-              <div class="container-fluid">
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="キーワードから探す" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </nav>
-            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" data-interval="5000" data-wrap="true" data-pause="false">
-              <ul class="carousel-indicators">
-                <li data-target="carouselExampleInterval" data-slide-to="0" class="active"></li>
-                <li data-target="carouselExampleInterval" data-slide-to="1"></li>
-                <li data-target="carouselExampleInterval" data-slide-to="2"></li>
-              </ul>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/summer.JPEG" class="d-block" alt="summer.JPEG">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/accessory2.jpg" class="d-block" alt="accessory2.jpg">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/denim1.jpg" class="d-block" alt="denim1.jpg">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <!--<span class="visually-hidden">Previous</span>-->
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <!--<span class="visually-hidden">Next</span>-->
-              </button>
-            </div>
-            <div>
-                <h2>イチオシ</h2>
-                <ul id="onepress">
-                  <li class="one">
-                    <a href="">
-                      <img src="images2/Tshirt.JPEG" alt="Tシャツ">
-                    </a>
-                  </li>
-                  <li class="one">
-                    <a href="">
-                      <img src="images2/denim1.jpg" alt="デニム">
-                    </a>
-                  </li>
-                  <li class="one">
-                    <a href="">
-                      <img src="images2/accessory.JPEG" alt="アクセサリー">
-                    </a>
-                  </li>
-                </ul>
-            </div>
-            <div class="category">
-              <h2>カテゴリから探す</h2>
-              <ul class="category">
-                <li>
-                  <img src="images1/whiteT.jpg" alt="whiteT.jpg">
-                  <h3>トップス</h3>
-                </li>
-                <li>
-                  <img src="images1/denim.jpeg" alt="denim.jpeg">
-                  <h3>パンツ</h3>
-                </li>
-                <li>
-                  <img src="images1/skirt.webp" alt="skirt.webp">
-                  <h3>スカート</h3>
-                </li>
-                <li>
-                  <img src="images1/dress.webp" alt="dress.webp">
-                  <h3>ワンピース</h3>
-                </li>
-                <li>
-                  <img src="images1/coat.webp" alt="coat.webp">
-                  <h3>アウター</h3>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2>ランキング</h2>
-              <!--いいね数が多いランキング-->
-            </div>
-            <div>
-              
-            </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
-        </div>    
-    </body>
+            <h2>イチオシ</h2>
+            <ul id="onepress">
+              <li class="one">
+                <a href="">
+                    <img src="images2/Tshirt.JPEG" alt="Tシャツ">
+                </a>
+              </li>
+              <li class="one">
+                <a href="">
+                    <img src="images2/denim1.jpg" alt="デニム">
+                </a>
+              </li>
+              <li class="one">
+                <a href="">
+                    <img src="images2/accessory.JPEG" alt="アクセサリー">
+                </a>
+              </li>
+            </ul>
+        </div>
+        <div class="category">
+          <h2>カテゴリから探す</h2>
+          <ul class="category">
+            <li>
+                <img src="images1/whiteT.jpg" alt="whiteT.jpg">
+                <h3>トップス</h3>
+            </li>
+            <li>
+                <img src="images1/denim.jpeg" alt="denim.jpeg">
+                <h3>パンツ</h3>
+            </li>
+            <li>
+                <img src="images1/skirt.webp" alt="skirt.webp">
+                <h3>スカート</h3>
+            </li>
+            <li>
+                <img src="images1/dress.webp" alt="dress.webp">
+                <h3>ワンピース</h3>
+            </li>
+            <li>
+                <img src="images1/coat.webp" alt="coat.webp">
+                <h3>アウター</h3>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>ランキング</h2>
+          <!--いいね数が多いランキング-->
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
