@@ -75,5 +75,21 @@ button {
     margin: 0 auto;
     margin-top: 20px;
     border: none;
+    align-items: center;
     color: #6a6767;
+}
+h1.summer {
+    margin-top: 20px;
+    background-color: #ffc107;
+    font-family: system-ui;
+}
+h1.summer1 {
+    margin-top: 20px;
+    background-color: #98bfee;
+    font-family: monospace;
+}
+h1.summer2 {
+    margin-top: 20px;
+    background-color: #f9ddb9;
+    font-family: serif;
 }
