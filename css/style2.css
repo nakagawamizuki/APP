@@ -44,6 +44,10 @@ input#inputHeight {
     background-color: #8080801c;
     border-color: white;
 }
+input#inputCode {
+    background-color: #8080801c;
+    border-color: white;
+}
 input#inputCompany {
     background-color: #8080801c;
     border-color: white;
@@ -92,4 +96,7 @@ h1.summer2 {
     margin-top: 20px;
     background-color: #f9ddb9;
     font-family: serif;
+}
+.register {
+    text-align: center;
 }
