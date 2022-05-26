@@ -286,3 +286,71 @@ html,
 button.w-100.btn.btn-lg {
     background-color: grey;
 }
+
+
+/* パソコン、タブレット */
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*タブレット 縦のみ	*/
+@media screen and (max-width: 1024px) and (orientation: portrait){
+    
+}
+/* タブレット 縦から */
+@media screen and (max-width: 1024px){
+    
+}
+/* スマホ 横のみ */
+@media screen and (max-width: 896px) and (orientation: landscape){
+    
+}
+/* スマホ 横から */ 
+@media screen and (max-width: 896px){
+    
+}
+/* スマホ　縦からは */
+@media screen and (max-width: 480px){
+    
+    html {
+        width: 100vw;
+    }
+    
+    body {
+        width: 100vw;
+    }
+    
+    ul#onepress {
+        width: 100vw;
+        display: block;
+    }
+    
+    img {
+        padding: 5px;
+    }
+    
+    ul#onepress {
+        width: 120vw;
+        align-items: center;
+         margin: 0 auto; 
+        display: block;
+    }
+    
+    ul.category {
+        width: 100vw;
+        display: -webkit-inline-box;
+        /*margin: 0 auto;*/
+    }
+    
+    img.d-block {
+        width: 100vw;
+        height: 100vw;
+        /*margin: 0 auto;*/
+    }
+    
+}
+
+
+
